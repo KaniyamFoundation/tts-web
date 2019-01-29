@@ -12,18 +12,150 @@
 {% block content %}
 
 <div class="container">
-  <h1>Tamil TTS</h1>
-  <p>This Web Application is used to convert Tamil text into Speech</p>
-  <blockquote>
-    <p>Many of us , want to convert tamil texts into speech. If you are looking for one then this web application is for you . Just follow the steps below</p>
-      <ul>
-          <li> Signup with your email</li>
-          <li> Login with your credentials</li>
-          <li>Upload the File which contains tamil texts</li>
-          <li>Once the conversion is done we will email you about that, then you can download converted file(.mp3)</li>
-      </ul>
-      <footer></footer>
-  </blockquote>
+    <div class="english-container">
+        <p>We are happy to release the Online Tamil Text to Speech conversion software at <a href="http://tts.kaniyam.com" rel="nofollow">http://tts.kaniyam.com</a></p>
+        <p>This is a Free Software.
+        Get the source code here  - <a href="https://github.com/KaniyamFoundation/tts-web">https://github.com/KaniyamFoundation/tts-web</a>
+        This is made with Ubuntu/Linux, Python, Django, Celery, MySQL etc.</p>
+        <h4>
+        <a id="user-content-introduction"   ></a>Introduction</h4>
+        <p>This online software can convert your Tamil text files to audio files in MP3 format. (TTS = Text To Speech)</p>
+        <h4>
+        <a id="user-content-how-to-convert" ></a>How to Convert?</h4>
+        <ol>
+        <li>Create an Account here <a href="http://tts.kaniyam.com/signup/" rel="nofollow">http://tts.kaniyam.com/signup/</a>
+        </li>
+        <li>You will receive an email with account activation link. Click that link.</li>
+        <li>Do login</li>
+        <li>Goto <a href="http://tts.kaniyam.com/upload/" rel="nofollow">http://tts.kaniyam.com/upload/</a> Upload a file with tamil unicode text.</li>
+        <li>Now, that text file will be converted as audio file (mp3) in background. It may take some time for this. From few minutes to few hours too. This wait time depends on your file size, Total number files being uploaded, and queue order of your file etc.</li>
+        <li>Once it is converted as MP3, you will receive an email with download link. It will be displayed on your home page too. <a href="http://tts.kaniyam.com/" rel="nofollow">http://tts.kaniyam.com/</a>
+        </li>
+        <li>Click the link and Download the MP3 file.</li>
+        </ol>
+        <h4>
+        <a id="user-content-frequently-asked-questions"   ></a>Frequently Asked Questions</h4>
+        <h3>
+        <a id="user-content-what-types-of-files-can-be-uploaded" ></a><b>What types of files can be uploaded?</b>
+        </h3>
+        <p>Only Tamil Unicode text files are supported. File can be upto 100 MB.</p>
+        <h3>
+        <a id="user-content-why-do-i-have-to-register-can-i-upload-files-without-registering"  ></a><b>Why do I have to register? Can I upload files without registering?</b>
+        </h3>
+        <p>The TTS conversion is slow process. It may take few hours to complete. Waiting with browser tab open for few hours is not possible. To notify the user, after the file conversion, sending email is one simple way. Thats why we ask for registering. Tell us if there are even better ways.</p>
+        <h3>
+        <a id="user-content-shall-i-upload-my-private-files" ></a><b>Shall I upload my private files?</b>
+        </h3>
+        <p>If you have more private, secret files, dont upload here. Dont upload to any of the online applications.
+        Anyhow, this is Free/Open Source Software. you can install this in your home ubuntu/linux computer.</p>
+        <p>You can upload here general files, which are not too private to you. We have made essential settings so that you only can access your files. No other can access your files. (Except admins and server providers).</p>
+        <h3>
+        <a id="user-content-how-long-the-mp3-files-will-be-there-on-the-server"   ></a><b>How long the MP3 files will be there on the server?</b>
+        </h3>
+        <p>For now, we keep them for 3 days as testing. After three days, they will be deleted automatically.</p>
+        <h3>
+        <a id="user-content-why-there-is-only-male-voice-why-cant-we-have-female-voice"  ></a><b>Why there is only male voice? Why cant we have female voice?</b>
+        </h3>
+        <p>Female voice is in testing. Will add soon.</p>
+        <h3>
+        <a id="user-content-why-there-is-only-tamil-tts-we-need-for-other-languages-too"   ></a><b>Why there is only Tamil TTS? We need for other languages too.</b>
+        </h3>
+        <p>Other languages TTS are in our action items. We are yet to find suitable TTS and how to use them. If you know about them, let us know.</p>
+        <h3>
+        <a id="user-content-is-this-software-a-safer-one"  ></a><b>Is this software a safer one?</b>
+        </h3>
+        <p>Not 100%. As this is Free/Open source software, you can check its code at <a href="https://github.com/KaniyamFoundation/tts-web">https://github.com/KaniyamFoundation/tts-web</a> There are many security related things to do like adding SSL. Encrypting the files and hard disks etc. We will do them soon.</p>
+        <h3>
+        <a id="user-content-how-to-install-this-on-windows" ></a><b>How to install this on Windows?</b>
+        </h3>
+        <p>No. Not possible.</p>
+        <h3>
+        <a id="user-content-why" ></a><b>Why?</b>
+        </h3>
+        <p>When you have only two wheeler vehicle, we hope, you wont try to fit a car seat on it and ride.</p>
+        <h4>
+        <a id="user-content-contributors"  ></a>Contributors</h4>
+        <p>This is done with the awesome contributions of many.</p>
+        <h3>
+        <a id="user-content-indictts"  ></a>IndicTTS</h3>
+        <p><b>IndicTTS</b> (<a href="https://www.iitm.ac.in/donlab/tts/index.php" rel="nofollow">https://www.iitm.ac.in/donlab/tts/index.php</a>) is a project driven by IIT Madras. SSN College of Engineering and IIT Madras jointly developed TTS for Tamil and released as Free/Open Source Software. Research works for other languages are going on.</p>
+        <p><b>Contributors</b></p>
+        <ul>
+        <li>Hema - <a href="mailto:hema@cse.iitm.ac.in">hema@cse.iitm.ac.in</a>
+        </li>
+        <li>Anju - <a href="mailto:anjuthomas95@gmail.com">anjuthomas95@gmail.com</a>
+        </li>
+        <li>Nagarajan - <a href="mailto:nagarajant@ssn.edu.in">nagarajant@ssn.edu.in</a>
+        </li>
+        </ul>
+        <h3>
+        <a id="user-content-the-following-friends-made-the-tamil-tts-installation-simple-as-running-a-shell-script"  href="#the-following-friends-made-the-tamil-tts-installation-simple-as-running-a-shell-script" ></a>The following friends, made the tamil tts installation simple as running a shell script.</h3>
+        <ul>
+        <li>Mohan - <a href="mailto:mohan43u@gmail.com">mohan43u@gmail.com</a>
+        </li>
+        <li>Padmakumar  - <a href="mailto:padmakumar.rajan@gmail.com">padmakumar.rajan@gmail.com</a>
+        </li>
+        <li>Shrinivasan - <a href="mailto:tshrinivasan@gmail.com">tshrinivasan@gmail.com</a>
+        </li>
+        </ul>
+        <p>Script is here - <a href="http://github.com/tshrinivasan/tamil-tts-install">http://github.com/tshrinivasan/tamil-tts-install</a></p>
+        <h3>
+        <a id="user-content-testing-and-improvements-are-done-by"   ></a>Testing and improvements are done by</h3>
+        <p>Khaleel Jageer - <a href="mailto:jskcse4@gmail.com">jskcse4@gmail.com</a></p>
+        <h3>
+        <a id="user-content-django-web-application-written-and-maintained-by"  ></a>Django web application written and maintained by</h3>
+        <p>Balaji - <a href="mailto:fossbalaji@gmail.com">fossbalaji@gmail.com</a></p>
+        <h3>
+        <a id="user-content-the-server-is-donated-by"  ></a>The Server is donated by</h3>
+        <p>E2E Networks, <a href="http://www.e2enetworks.com" rel="nofollow">www.e2enetworks.com</a></p>
+        <h3>
+        <a id="user-content-all-the-plans-ideas-requirements-action-items-are-provided-by"  ></a>All the plans, ideas, requirements, action items are provided by</h3>
+        <p>Indian Linux Users Group, Chennai <a href="http://ilugc.in" rel="nofollow">http://ilugc.in</a>
+        Free Software Foundation, TamilNadu <a href="http://fsftn.org" rel="nofollow">http://fsftn.org</a></p>
+        <h3>
+        <a id="user-content-organized-by"  ></a>Organized by</h3>
+        <p>Kaniyam Foundation - <a href="http://kaniyam.com/foundation" rel="nofollow">http://kaniyam.com/foundation</a></p>
+        <p><b>Contact</b>
+        <a href="mailto:kaniyamfoundation@gmail.com">kaniyamfoundation@gmail.com</a></p>
+        <h3>
+        <a id="user-content-the-below-updates-will-be-provided-soon"  ></a><b>The below updates will be provided soon.</b>
+        </h3>
+        <ol>
+        <li>Female Voice</li>
+        <li>Better TTS</li>
+        <li>TTS for other languages</li>
+        <li>Rest API</li>
+        </ol>
+        <h4>
+        <a id="user-content-how-to-report-issues"  ></a>How to report issues?</h4>
+        <ul>
+        <li>Create an account in Github.com</li>
+        <li>Create an issue here <a href="https://github.com/KaniyamFoundation/tts-web/issues">https://github.com/KaniyamFoundation/tts-web/issues</a>
+        </li>
+        <li>Write all the errors, issues, new ideas etc</li>
+        </ul>
+        <h4>
+        <a id="user-content-you-can-contribute"  ></a>You can Contribute</h4>
+        <ol>
+        <li>Using the Free/Open Source Software and introducing them to others itself a great contribution.</li>
+        <li>Use this. Report us on any bugs and required features, ideas etc.</li>
+        <li>Spread the news about this in Social media, Print media etc.</li>
+        <li>Donate us. Kaniyam Foundation is working on building such open source software and open digital resources. Your donations will help us do to more.</li>
+        </ol>
+        <h4>
+        <a id="user-content-bank-account-details"  ></a>Bank account details</h4>
+        <p>
+            <h5>Kaniyam Foundation</h5>
+           <h5> Account Number : 606 1010 100 502 79</h5>
+           <h5> Union Bank Of India</h5>
+            <h5>West Tambaram, Chennai</h5>
+            <h5>IFSC – UBIN0560618</h5>
+        </p>
+        <p>
+        Send your name, donation details to <a href="mailto:kaniyamfoundation@gmail.com">kaniyamfoundation@gmail.com</a>
+        </p>
+
+    </div>
     <div class="tamil-container">
                     <h4><b>தமிழ் உரை ஒலி மாற்றி</b></h4>
 
