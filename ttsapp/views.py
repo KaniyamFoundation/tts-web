@@ -233,10 +233,11 @@ class Fileupload(View):
         template_name = 'upload.html'
 
         context = {}
-        print(request.FILES)
         if request.FILES['myfile']:
             try:
                 myfile = request.FILES['myfile']
+                if not myfile.name.endswith('.txt'):
+                    raise Exception("Only Text Files are allowed")
                 file_path = 'uploads/' + '%s/%s' % (datetime.today().strftime("%Y/%m/%d"), str(request.user.id)
 )
                 fs = FileSystemStorage(location=file_path)
