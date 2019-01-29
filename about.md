@@ -201,7 +201,7 @@ Script is here - http://github.com/tshrinivasan/tamil-tts-install
 
 Khaleel Jageer - jskcse4@gmail.com
 
-### Djaango web application written and maintained by 
+### Django web application written and maintained by 
 
 Balaji - fossbalaji@gmail.com
 
